@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1><span id="verb"></span></h1>
+    <script>
+        var verbList = 
+        [
+            'be',
+            'become',
+            'begin',
+            'break',
+            'bring',
+            'build',
+            'buy',
+            'come',
+            'cut',
+            'do',
+            'draw',
+            'drink',
+            'drive',
+            'eat',
+            'fall',
+            'fight',
+            'find',
+            'forget',
+            'get',
+            'give',
+            'go',
+            'have',
+            'hear',
+            'know',
+            'leave',
+            'lose',
+            'make',
+            'meet',
+            'pay',
+            'put',
+            'read',
+            'run',
+            'say',
+            'see',
+            'sell',
+            'send',
+            'show',
+            'sing',
+            'sit',
+            'sleep',
+            'spend',
+            'steal',
+            'swim',
+            'take',
+            'tell',
+            'think',
+            'understand', 
+            'wake',
+            'wear',
+            'win',
+            'write'            
+        ]
+        
+        var r = Math.random();
+        var n = (r * verbList.length) | 0; 
+        
+        verb.textContent = verbList[n];
+    </script>
+</body>
+</html>
